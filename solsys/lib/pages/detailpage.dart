@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:solsys/data.dart';
-import 'constants.dart';
+import 'package:solsys/constants/data.dart';
+import 'package:solsys/constants/styling.dart';
 
 class DetailPage extends StatelessWidget {
   final PlanetInfo planetInfo;
@@ -29,7 +29,7 @@ class DetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 56,
-                            color: primaryTextColor,
+                            color: AppTheme.primaryTextColor,
                             fontWeight: FontWeight.w900,
                           ),
                           textAlign: TextAlign.left,
@@ -39,7 +39,7 @@ class DetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 31,
-                            color: primaryTextColor,
+                            color: AppTheme.primaryTextColor,
                             fontWeight: FontWeight.w300,
                           ),
                           textAlign: TextAlign.left,
@@ -53,7 +53,7 @@ class DetailPage extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 20,
-                            color: contentTextColor,
+                            color: AppTheme.contentTextColor,
                             fontWeight: FontWeight.w500,
                           ),
                         ),
@@ -113,7 +113,7 @@ class DetailPage extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Avenir',
                   fontSize: 247,
-                  color: primaryTextColor.withOpacity(0.08),
+                  color: AppTheme.primaryTextColor.withOpacity(0.08),
                   fontWeight: FontWeight.w900,
                 ),
                 textAlign: TextAlign.left,
